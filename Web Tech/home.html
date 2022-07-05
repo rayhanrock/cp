@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="display">
+          <h1>Name : Rayhan Billah</h1>
+          <h1>Roll : ASH1925028M</h1>
+          <br /><br /><br />
+          <input
+            type="text"
+            name="name"
+            class="question"
+            id="input"
+            required
+            autocomplete="off"
+          />
+          <label><span>Enter numbers here..</span></label>
+        </div>
+        <div class="buttons">
+          <button class="primary-button" onclick="append('1')">
+            <span class="text">1</span>
+          </button>
+          <button class="primary-button" onclick="append('2')">
+            <span class="text">2</span>
+          </button>
+          <button class="primary-button" onclick="append('3')">
+            <span class="text">3</span>
+          </button>
+          <button class="primary-button" onclick="append('4')">
+            <span class="text">4</span>
+          </button>
+          <button class="primary-button" onclick="append('5')">
+            <span class="text">5</span>
+          </button>
+          <button class="primary-button" onclick="append('6')">
+            <span class="text">6</span>
+          </button>
+          <button class="primary-button" onclick="append('7')">
+            <span class="text">7</span>
+          </button>
+          <button class="primary-button" onclick="append('8')">
+            <span class="text">8</span>
+          </button>
+          <button class="primary-button" onclick="append('9')">
+            <span class="text">9</span>
+          </button>
+          <button class="primary-button" onclick="append('0')">
+            <span class="text">0</span>
+          </button>
+          <button class="primary-button" onclick="append(',')">
+            <span class="text">,</span>
+          </button>
+          <button class="primary-button" onclick="backSpace()">
+            <span class="text">C</span>
+          </button>
+        </div>
+        <div class="check-button">
+          <button id="check" class="primary-button" onclick="checkJolly()">
+            <span class="text">CHECK</span>
+          </button>
+        </div>
+      </div>
+      <div class="model"></div>
+    </div>
+  </body>
+</html>
